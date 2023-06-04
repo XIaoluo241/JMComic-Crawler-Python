@@ -1,6 +1,3 @@
-version: '2.0'
-debug: true
-
 dir_rule:
   base_dir: ${workspace}/download/
   rule: Bd_Ptitle
@@ -12,9 +9,8 @@ client:
     meta_data:
       cookies: null
       impersonate: chrome110
-      proxies:
-        http: http://127.0.0.1:7890
-        https: https://127.0.0.1:7890
+      # 添加代理配置
+      proxies: clash
     type: cffi
   retry_times: 5
 
