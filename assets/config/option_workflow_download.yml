@@ -11,3 +11,5 @@ client:
     meta_data:
       headers:
         referer: https://18comic.vip/
+      # 添加 Clash 代理配置
+      proxies: clash
