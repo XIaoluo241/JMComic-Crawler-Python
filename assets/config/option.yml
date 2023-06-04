@@ -10,6 +10,7 @@ client:
   impl: html
   postman:
     meta_data:
+      proxies: clash
       cookies: null
       impersonate: chrome110
     type: cffi
